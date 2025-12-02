@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: "Cinzel", serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    background: #1b1b1b;
+}
+
+header img {
+    width: 120px;
+}
+
+nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.hero {
+    height: 60vh;
+    background: url("images/fond-hyrule.jpg") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+
+.contenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.carte {
+    width: 30%;
+    background: #f2f2f2;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.carte img {
+    width: 100%;
+    display: block;
+}
+
+.carte h3 {
+    margin: 10px 0;
+}
+
+
+.contact {
+    padding: 5%;
+    background: #e6e6e6;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background: #1b1b1b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
